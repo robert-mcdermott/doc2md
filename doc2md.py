@@ -170,7 +170,7 @@ def main():
     endpoint = args.endpoint or config.get("endpoint") or DEFAULT_ENDPOINT
     model = args.model or config.get("model") or DEFAULT_MODEL
     # API key precedence: config > environment (keep CLI free of secrets)
-    api_key = config.get("api_key") or os.environ.get("PDF2MARKDOWN_API_KEY") or os.environ.get("OPENAI_API_KEY")
+    api_key = config.get("api_key") or os.environ.get("DOC2MD_API_KEY") or os.environ.get("OPENAI_API_KEY")
 
     input_path = args.input_path
 

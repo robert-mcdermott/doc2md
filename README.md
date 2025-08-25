@@ -74,12 +74,12 @@ uv run doc2md.py -m <model_name> -e <endpoint_url> <image_or_pdf_path>
 
 Provide an API key as a Bearer token via either:
 - Config file: add `api_key = "YOUR_API_KEY"` under `[llm]` (or top-level)
-- Environment variable: set `PDF2MARKDOWN_API_KEY` or `OPENAI_API_KEY`
+- Environment variable: set `DOC2MD_API_KEY` or `OPENAI_API_KEY`
 
 Example:
 
 ```bash
-export PDF2MARKDOWN_API_KEY="YOUR_API_KEY"
+export DOC2MD_API_KEY="YOUR_API_KEY"
 uv run doc2md.py -c config.toml document.pdf
 ```
 
