@@ -1,0 +1,10 @@
+# Default LLM configuration for pdf2markdown
+# You can keep keys at the top level or under [llm].
+# The application supports both. This example uses [llm].
+
+[llm]
+endpoint = "http://localhost:11434/v1/chat/completions"
+model = "qwen2.5vl"
+# Optional API key (Bearer token). Do not commit real secrets.
+# api_key = "sk-1234"
+
