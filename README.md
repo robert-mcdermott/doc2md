@@ -1,4 +1,7 @@
-# Document to Markdown Utility
+
+![doc2md-example.png](doc2md-example.png)
+
+# DOC2MD: Document to Markdown Utility
 
 A utility that extracts text from images or PDFs using a local or remote OpenAI-compatible API endpoint with vision-capable multimodal models. For PDFs, each page is rendered to an image and processed sequentially; outputs are concatenated into a single Markdown document.
 
