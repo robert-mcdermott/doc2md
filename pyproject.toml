@@ -2,6 +2,8 @@
 name = "doc2md"
 version = "0.1.0"
 description = "Converts documents in images or PDFs to formatted Markdown versions of the source document."
+authors = ["Robert McDermott <robert.c.mcdermott@gmail.com>"]
+license = "Apache 2.0"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
